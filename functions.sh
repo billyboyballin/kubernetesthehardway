@@ -2,7 +2,8 @@
 
 ############################### Prerequisites ###############################
 install_awscli () {
-  sudo apt install unzip
+  sudo apt update -y
+  sudo apt install unzip jq -y
   curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
   unzip awscliv2.zip
   sudo ./aws/install
