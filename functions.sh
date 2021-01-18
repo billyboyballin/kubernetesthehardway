@@ -1,7 +1,5 @@
 #! /bin/bash
 
-set -euo pipefail
-
 ############################### Prerequisites ###############################
 install_awscli () {
   sudo apt install unzip
