@@ -1,0 +1,3 @@
+
+delete_compute_instance
+delete_networking_resources

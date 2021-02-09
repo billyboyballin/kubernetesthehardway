@@ -1,0 +1,17 @@
+
+
+install_awscli
+install_cfssl
+install_kubectl
+
+create_vpc
+create_subnet
+create_internetgateway
+create_routetable
+create_securitygroups
+create_networkloadbalancer
+get_kubernetespublicaddress
+create_imageid
+create_sshkey
+create_masternodes
+create_workernodes
