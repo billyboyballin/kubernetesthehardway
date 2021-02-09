@@ -1,7 +1,5 @@
 #! /bin/bash
 
-set -euo pipefail
-
 delete_compute_instance () {
   echo "Issuing shutdown to worker nodes.. " && \
   aws ec2 terminate-instances \
